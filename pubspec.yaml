@@ -1,0 +1,31 @@
+name: tool_app
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^3.0.4
+  cupertino_icons: ^1.0.8
+  http: ^0.13.4
+  url_launcher: ^6.0.20
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  provider: ^6.0.1
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/Foto.jpg
+    - assets/toolbox.png
+    - assets/young.jpg
+    - assets/adult.jpeg
+    - assets/elderly.jpg
+  uses-material-design: true
